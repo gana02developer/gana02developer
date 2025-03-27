@@ -1,0 +1,285 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin:0;
+    padding:0;
+}
+.main
+{
+    background-color: #009688;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    padding:18px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+#home img{
+    object-fit: cover;
+}
+.main1,.main2
+{
+    cursor: pointer;
+}
+
+.menu
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color:black;
+    padding: 2px 18px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.menu2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:bold;   
+}
+.menu2 a
+{
+    text-decoration: none;
+    color:white;
+}
+.menu2 a:hover
+{
+    color:#009688;
+    cursor: pointer;
+}
+.caption
+{
+    position:absolute;
+    top:320px;
+    text-align:center;
+    left:190px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.caption h2
+{
+    font-size:43px;
+}
+.caption p
+{
+    font-size:25px;
+    line-height: 50px;
+}
+.caption button
+{
+    background-color:#009688;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding:20px 45px;
+}
+.box
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding:10px 20px;
+    margin:50px;
+    box-shadow: 1px 1px 20px 0px black;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+}
+.box1
+{
+    grid-column: 1/span 3;
+    padding:50px;
+}
+.box h2
+{
+    margin-right:150px;
+}
+.box button
+{
+
+    padding:20px 50px;
+    border:none;
+    border-radius: 8px;
+    background-color: #009688;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.boxwidth
+{
+    padding:8px 150px 10px 5px;
+}
+.special
+{
+    display: flex;
+    text-align: center;
+    margin:20px 90px;
+    gap:25px;
+    font-family: "Open Sans", sans-serif;
+}
+.special1
+{
+    padding:100px 20px;
+    border:2px solid rgb(211, 208, 208);
+    border-radius: 8px;
+}
+.special i,.special h4
+{
+    color:gray;
+}
+.special h2
+{
+    color: black;
+}
+.special1:hover
+{
+    background-color:#009688;
+}
+.special1:hover h2,.special1:hover h4,.special1:hover i
+{
+    color:white;
+}
+.text2
+{
+    text-align: center;
+    color:gray;
+    font-size:42px;
+    margin:15px 0px 50px 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.text1
+{
+    text-align: center;  
+    font-size:17px; 
+    margin:50px 0px 0px 0px;
+    font-family: "Open Sans", sans-serif;
+}
+.model
+{
+    display: flex;
+    gap:50px;
+    margin:50px 95px 50px 80px;
+    padding:60px 50px;
+    font-family: "Open Sans", sans-serif;
+}
+.model h5
+{
+    color:gray;
+}
+.model button
+{
+    background-color: #009688;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    padding:20px;
+}
+.car1
+{
+    display: flex;
+    gap:20px;
+    margin:10px 50px 20px 50px;
+}
+.car1 div
+{
+    border:2px solid rgb(233, 230, 230);
+    padding:40px 10px;
+}
+.car1 img
+{
+    padding:40px;
+}
+.car1 p
+{
+    color:gray;
+}
+.client h2
+{
+    font-size: 35px;
+    color:gray;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding:20px 0px 10px 0px;
+}
+.clients
+{
+    display:flex;
+    gap:30px;
+    margin:10px 80px;
+}
+.client1
+{
+    border:2px solid rgb(231, 235, 234);
+    padding:70px 30px 70px 30px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;   
+}
+
+.client1 h3
+{
+    color:gray;
+}
+.client1:hover h3,.client1:hover h4
+{
+    color:white;
+}
+.client1:hover
+{
+    background-color: #009688;
+}
+.log
+{
+    display: flex;
+    justify-content: space-around;
+    padding:80px;
+}
+.about
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    padding:30px 150px;
+    font-family: "Open Sans", sans-serif;
+}
+.p1
+{
+    line-height: 40px;
+}
+.about input
+{
+    background-color:black;
+    box-shadow: 1px 1px 8px 2px rgb(124, 123, 123);
+    border-radius: 5px;
+    padding:10px;
+    margin-left:0;
+    transition-property: margin-left;
+}
+.about h1
+{
+    font-size:40px;
+}
+.move p:hover
+{
+    margin-left:5px;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009688;
+    color:white;
+    padding:10px 80px 10px 80px;
+    font-family: "Open Sans", sans-serif;
+    font-size:small;
+}
